@@ -1,11 +1,7 @@
-import os
 import random
-import string
-import sys
 import uuid
 import argparse
 
-# Générer des noms de variables aléatoires
 var_names = ["_"+str(uuid.uuid4().hex) for _ in range(19)]
 
 
